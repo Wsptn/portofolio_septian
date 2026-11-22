@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portofolio Muhammad Babun Waseptian - Junior Software Developer lulusan Teknik Informatika dengan IPK 3.90/4.00">
+  <meta name="keywords" content="Muhammad Babun Waseptian, Junior Developer, Software Developer, Laravel, PHP, Teknik Informatika">
+  <meta name="author" content="Muhammad Babun Waseptian">
+  <title>Muhammad Babun Waseptian | Junior Developer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- SCROLL PROGRESS -->
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- NAVBAR -->
+<header class="header" id="header">
+  <div class="nav-container">
+    <a href="#beranda" class="logo">
+      <span class="logo-mark">S</span>
+      <span class="logo-text">Septian<span class="logo-dot">.</span></span>
+    </a>
+
+    <nav class="nav-menu" id="navMenu">
+      <a href="#beranda" class="nav-link active">Beranda</a>
+      <a href="#tentang" class="nav-link">Tentang</a>
+      <a href="#pendidikan" class="nav-link">Perjalanan</a>
+      <a href="#keahlian" class="nav-link">Keahlian</a>
+      <a href="#proyek" class="nav-link">Proyek</a>
+      <a href="#sertifikat" class="nav-link">Sertifikat</a>
+      <a href="#kontak" class="nav-cta">Hubungi Saya</a>
+    </nav>
+
+    <button class="hamburger" id="menuToggle" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+<!-- ═══════════════════ 01. BERANDA ═══════════════════ -->
+<section class="hero section" id="beranda">
+  <div class="hero-bg-shapes">
+    <div class="shape shape-1"></div>
+    <div class="shape shape-2"></div>
+    <div class="shape shape-3"></div>
+  </div>
+
+  <div class="container">
+    <div class="hero-grid">
+
+      <div class="hero-content reveal">
+        <div class="status-badge">
+          <span class="pulse-dot"></span>
+          Terbuka untuk Peluang Profesional
+        </div>
+
+        <p class="hero-greeting">Halo, perkenalkan saya</p>
+
+        <h1 class="hero-name">
+          Muhammad<br>
+          Babun <span class="text-gradient">Waseptian</span>
+        </h1>
+
+        <div class="hero-role-wrapper">
+          <span class="role-label">Fresh Graduate</span>
+          <span class="role-divider">|</span>
+          <span class="role-text">Junior Developer</span>
+          <span class="role-divider">|</span>
+          <span class="role-text">Staff Administrasi</span>
+        </div>
+
+        <p class="hero-description">
+          Lulusan S1 Teknik Informatika dengan IPK <strong>3.90/4.00</strong>.
+          Memiliki pengalaman di bidang pelayanan dan administrasi yang membentuk
+          <strong>ketelitian data</strong>, manajemen waktu, dan komunikasi profesional
+          yang siap berkontribusi di lingkungan kerja yang dinamis.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#proyek" class="btn btn-primary">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 3l14 9-14 9V3z"/></svg>
+            Lihat Proyek
+          </a>
+          <a href="documents/CV_SEPTIAN.pdf" class="btn btn-outline" download>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+            Unduh CV
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-number">3.90</span>
+            <span class="stat-label">IPK / 4.00</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number">S1</span>
+            <span class="stat-label">Teknik Informatika</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number">3+</span>
+            <span class="stat-label">Proyek Selesai</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="visual-container">
+          <div class="image-frame">
+            <img 
+              src="assets/images/profile.jpg"
+              onerror="this.src='https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=700&fit=crop&q=80'"
+              alt="Foto Profil Muhammad Babun Waseptian"
+            >
+            <div class="frame-corner frame-corner-tl"></div>
+            <div class="frame-corner frame-corner-br"></div>
+          </div>
+
+          <div class="float-card card-gpa">
+            <div class="card-icon">🎓</div>
+            <div>
+              <strong>IPK Cumlaude</strong>
+              <small>3.90 / 4.00</small>
+            </div>
+          </div>
+
+          <div class="float-card card-status">
+            <div class="card-icon">💼</div>
+            <div>
+              <strong>Open to Work</strong>
+              <small>Junior Developer</small>
+              <small>Staff Administrasi</small>
+            </div>
+          </div>
+
+          <div class="deco-ring"></div>
+          <div class="deco-dots"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="hero-scroll-hint">
+    <span>Scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════ 02. TENTANG ═══════════════════ -->
+<section class="section about" id="tentang">
+  <div class="container">
+
+    <div class="section-header reveal">
+      <p class="section-eyebrow">01 / TENTANG SAYA</p>
+      <h2>Mengenal lebih dekat <span class="text-gradient">perjalanan saya</span></h2>
+      <p class="section-subtitle">Teknologi, ketelitian, dan keinginan untuk terus berkembang.</p>
+    </div>
+
+    <div class="about-grid">
+
+      <div class="about-image-wrapper reveal">
+        <div class="about-img-box">
+          <img
+            src="assets/images/tentang.jpg"
+            onerror="this.src='https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=700&fit=crop&q=80'"
+            alt="Aktivitas administrasi dan pelayanan"
+          >
+          <div class="img-overlay-badge">
+            <span>TELITI</span>
+            <span class="badge-sep">·</span>
+            <span>PROFESIONAL</span>
+            <span class="badge-sep">·</span>
+            <span>BERDEDIKASI</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-content reveal">
+        <blockquote class="about-quote">
+          "Lulusan S1 Teknik Informatika yang berpengalaman di bidang pelayanan pelanggan dan administrasi operasional dengan dedikasi tinggi."
+        </blockquote>
+
+        <p>
+          Memiliki pengalaman nyata di bidang pelayanan dan administrasi yang membangun
+          <strong>ketelitian dalam pengelolaan data</strong>, kemampuan manajemen waktu,
+          serta komunikasi profesional yang baik dengan pelanggan maupun rekan kerja.
+        </p>
+
+        <p>
+          Latar belakang pendidikan Teknik Informatika memberikan nilai tambah berupa
+          pemahaman teknologi yang mendukung pekerjaan administratif modern, seperti
+          pengelolaan data digital, laporan, dan sistem informasi berbasis komputer.
+        </p>
+
+        <div class="about-cards">
+          <div class="about-card">
+            <div class="about-card-icon">🗂️</div>
+            <div>
+              <strong>Fokus</strong>
+              <span>Staff Administrasi,</span>
+              <span>web developer</span>
+            </div>
+          </div>
+          <div class="about-card">
+            <div class="about-card-icon">📍</div>
+            <div>
+              <strong>Lokasi</strong>
+              <span>Bondowoso, Jawa Timur</span>
+            </div>
+          </div>
+          <div class="about-card">
+            <div class="about-card-icon">🎓</div>
+            <div>
+              <strong>Pendidikan</strong>
+              <span>S1 Teknik Informatika</span>
+            </div>
+          </div>
+          <div class="about-card">
+            <div class="about-card-icon">⭐</div>
+            <div>
+              <strong>IPK</strong>
+              <span>3.90 / 4.00</span>
+            </div>
+          </div>
+        </div>
+
+        <a href="#kontak" class="btn btn-primary">Mari Berkolaborasi →</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════ 03. PERJALANAN ═══════════════════ -->
+<section class="section journey" id="pendidikan">
+  <div class="container">
+
+    <div class="section-header reveal">
+      <p class="section-eyebrow">02 / PERJALANAN</p>
+      <h2>Setiap pengalaman adalah <span class="text-gradient">pembelajaran</span></h2>
+      <p class="section-subtitle">Riwayat pendidikan dan pengalaman kerja yang membentuk profesionalisme saya.</p>
+    </div>
+
+    <div class="journey-grid">
+
+      <div class="journey-image reveal">
+        <img
+          src="assets/images/pendidikan.jpg"
+          onerror="this.src='https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=600&h=800&fit=crop&q=80'"
+          alt="Lingkungan pendidikan"
+        >
+      </div>
+
+      <div class="timeline reveal">
+
+        <div class="timeline-item">
+          <div class="tl-marker">
+            <div class="tl-dot">🎓</div>
+            <div class="tl-line"></div>
+          </div>
+          <div class="tl-card">
+            <div class="tl-badge tl-badge-edu">PENDIDIKAN</div>
+            <span class="tl-year">2022 – 2026</span>
+            <h3>S1 Teknik Informatika</h3>
+            <h4>Universitas Nurul Jadid</h4>
+            <p>
+              Menyelesaikan pendidikan sarjana dengan IPK <strong>3.90/4.00</strong>.
+              Memperdalam pemrograman, basis data, analisis sistem, 
+              dan pengembangan aplikasi.
+            </p>
+            <div class="tl-tags">
+              <span>Pemrograman</span>
+              <span>Basis Data</span>
+              <span>Analisis Sistem</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="tl-marker">
+            <div class="tl-dot">💼</div>
+            <div class="tl-line"></div>
+          </div>
+          <div class="tl-card">
+            <div class="tl-badge tl-badge-work">PENGALAMAN KERJA</div>
+            <span class="tl-year">2026-Sekarang</span>
+            <h3>Pramuniaga fashion</h3>
+            <h4>KDS (Karunia Damai Selalu), Bondowoso</h4>
+            <p>
+              Bertanggung jawab melayani pelanggan dalam memilih produk fashion sesuai kebutuhan, memberikan informasi mengenai produk, ukuran, model, dan harga, membantu proses penjualan, menata serta merapikan display barang, memastikan ketersediaan produk, dan menjaga kebersihan area toko. Mengutamakan pelayanan yang ramah, komunikatif, teliti, serta berorientasi pada kepuasan pelanggan.
+            </p>
+            <div class="tl-tags">
+              <span>Pelayanan Pelanggan</span>
+              <span>Komunikasi</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="tl-marker">
+            <div class="tl-dot">💼</div>
+            <div class="tl-line"></div>
+          </div>
+          <div class="tl-card">
+            <div class="tl-badge tl-badge-work">PENGALAMAN KERJA</div>
+            <span class="tl-year">2023-2026</span>
+            <h3>Staff Administrasi</h3>
+            <h4>Biro Kepesantrenan PP.Nurul Jadid Paiton Probolinggo</h4>
+            <p>
+              Mendukung kegiatan administrasi dan operasional harian biro secara teliti dan terstruktur
+menggunakan perangkat lunak produktivitas (Microsoft Office).
+Berkolaborasi aktif dengan anggota tim lintas divisi untuk memastikan kelancaran program kerja
+dan seluruh tenggat waktu tugas tercapai.
+Mengelola arus komunikasi internal guna memfasilitasi kebutuhan administratif yang akurat
+antar departemen.
+            </p>
+            <div class="tl-tags">
+              <span>Administrasi</span>
+              <span>Analisis data</span>
+            </div>
+          </div>
+        </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ═══════════════════ 04. KEAHLIAN ═══════════════════ -->
+<section class="section skills" id="keahlian">
+  <div class="container">
+
+    <div class="section-header reveal">
+      <p class="section-eyebrow">03 / KEAHLIAN</p>
+      <h2>Kemampuan untuk <span class="text-gradient">terus berkarya</span></h2>
+      <p class="section-subtitle">Keahlian administrasi dan dukungan teknologi yang saya miliki untuk mendukung operasional kerja.</p>
+    </div>
+
+    <div class="skills-grid">
+
+      <div class="skills-image reveal">
+        <img
+          src="assets/images/keahlian.jpg"
+          onerror="this.src='https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600&h=700&fit=crop&q=80'"
+          alt="Kolaborasi teknologi"
+        >
+        <div class="skills-img-overlay">
+          <h3>Berpikir Kritis</h3>
+          <p>Membangun solusi melalui teknologi.</p>
+        </div>
+      </div>
+
+      <div class="skills-content reveal">
+
+        <div class="skill-group">
+          <div class="skill-group-header">
+            <div class="skill-group-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+            </div>
+            <div>
+              <h3>Administrasi & Perkantoran</h3>
+              <p>Pengelolaan Dokumen & Operasional Kantor</p>
+            </div>
+          </div>
+          <div class="skill-chips">
+            <span class="chip chip-primary">Microsoft Word</span>
+            <span class="chip chip-primary">Microsoft Excel</span>
+            <span class="chip chip-primary">Microsoft PowerPoint</span>
+            <span class="chip">Google Docs</span>
+            <span class="chip">Google Sheets</span>
+            <span class="chip">Pengelolaan Arsip</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <div class="skill-group-header">
+            <div class="skill-group-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+            </div>
+            <div>
+              <h3>Pengelolaan Data & Sistem</h3>
+              <p>Dukungan Teknologi untuk Administrasi</p>
+            </div>
+          </div>
+          <div class="skill-chips">
+            <span class="chip chip-primary">Input & Validasi Data</span>
+            <span class="chip">Pelaporan & Dokumentasi</span>
+            <span class="chip">MySQL</span>
+            <span class="chip">GitHub</span>
+            <span class="chip">Figma</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <div class="skill-group-header">
+            <div class="skill-group-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
+            </div>
+            <div>
+              <h3>Kemampuan Profesional</h3>
+              <p>Soft Skills & Kompetensi Kerja</p>
+            </div>
+          </div>
+          <div class="skill-chips">
+            <span class="chip chip-primary">Ketelitian Data</span>
+            <span class="chip chip-primary">Manajemen Waktu</span>
+            <span class="chip">Pelayanan Pelanggan</span>
+            <span class="chip">Komunikasi</span>
+            <span class="chip">Kerja Sama Tim</span>
+            <span class="chip">Adaptasi Cepat</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════ 05. PROYEK ═══════════════════ -->
+<section class="section projects" id="proyek">
+  <div class="container">
+
+    <div class="section-header reveal">
+      <p class="section-eyebrow">04 / PORTOFOLIO KARYA</p>
+      <h2>Beberapa hal yang telah <span class="text-gradient">saya bangun</span></h2>
+      <p class="section-subtitle">Kumpulan proyek pengembangan aplikasi sebagai bentuk penerapan pengetahuan dan kemampuan teknis.</p>
+    </div>
+
+    <div class="projects-grid">
+
+      <article class="project-card reveal">
+        <div class="project-img">
+          <img
+            src="assets/images/kiper.png"
+            onerror="this.src='https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop&q=80'"
+            alt="Sistem Penilaian Kinerja"
+          >
+          <div class="project-overlay">
+            <span class="project-num">01</span>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-meta">
+            <span class="project-type">Sistem Informasi · Web</span>
+          </div>
+          <h3>Sistem Penilaian Kinerja Pengurus</h3>
+          <p>Sistem berbasis website untuk mengelola penilaian kinerja dan memberikan rekomendasi tindak lanjut pengurus wilayah.</p>
+          <div class="project-tech">
+            <span>Laravel</span>
+            <span>PHP</span>
+            <span>MySQL</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-img">
+          <img
+            src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop&q=80"
+            alt="Sistem Informasi Jemuran Pesantren"
+          >
+          <div class="project-overlay">
+            <span class="project-num">02</span>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-meta">
+            <span class="project-type">Aplikasi Web</span>
+          </div>
+          <h3>Sistem Informasi Jemuran Pesantren</h3>
+          <p>Aplikasi pengelolaan data pelayanan, status pengambilan, statistik, dan kehilangan barang di pesantren.</p>
+          <div class="project-tech">
+            <span>Python</span>
+            <span>Streamlit</span>
+            <span>MySQL</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-img">
+          <img
+            src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=600&h=400&fit=crop&q=80"
+            alt="Aplikasi Machine Learning"
+          >
+          <div class="project-overlay">
+            <span class="project-num">03</span>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-meta">
+            <span class="project-type">Machine Learning</span>
+          </div>
+          <h3>Aplikasi Analisis dan Prediksi Data</h3>
+          <p>Pengembangan model klasifikasi dan prototipe prediksi menggunakan pendekatan machine learning modern.</p>
+          <div class="project-tech">
+            <span>Python</span>
+            <span>Scikit-learn</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ═══════════════════ 06. SERTIFIKAT ═══════════════════ -->
+<section class="section certificates" id="sertifikat">
+  <div class="container">
+
+    <div class="section-header reveal">
+      <p class="section-eyebrow">05 / SERTIFIKAT</p>
+      <h2>Belajar adalah proses <span class="text-gradient">tanpa henti</span></h2>
+      <p class="section-subtitle">Berbagai kegiatan pelatihan dan pengembangan diri.</p>
+    </div>
+
+    <div class="cert-grid">
+
+      <div class="cert-image reveal">
+        <img
+          src="assets/images/sertifikat.jpg"
+          onerror="this.src='https://images.unsplash.com/photo-1589330694653-ded6df03f754?w=600&h=700&fit=crop&q=80'"
+          alt="Dokumentasi sertifikat"
+        >
+        <div class="cert-img-badge">
+          <span class="cert-num">3+</span>
+          <span>Sertifikat</span>
+        </div>
+      </div>
+
+      <div class="cert-content reveal">
+        <p class="cert-intro">
+          Berbagai kegiatan pelatihan dan pengembangan diri menjadi 
+          bagian dari upaya meningkatkan kemampuan serta memperluas 
+          wawasan profesional.
+        </p>
+
+        <div class="cert-list">
+
+          <div class="cert-item">
+            <div class="cert-icon">🛡️</div>
+            <div class="cert-info">
+              <strong>Webinar Cyber Security</strong>
+              <p>Pelatihan keamanan siber dan perlindungan data digital</p>
+            </div>
+            <div class="cert-badge-mini">✓</div>
+          </div>
+
+          <div class="cert-item">
+            <div class="cert-icon">💡</div>
+            <div class="cert-info">
+              <strong>Pelatihan Siap Kerja</strong>
+              <p>Pengembangan kompetensi kerja dan kesiapan profesional</p>
+            </div>
+            <div class="cert-badge-mini">✓</div>
+          </div>
+
+          <div class="cert-item">
+            <div class="cert-icon">📜</div>
+            <div class="cert-info">
+              <strong>Sertifikasi & Pelatihan Lainnya</strong>
+              <p>Berbagai pencapaian relevan yang terus dikembangkan</p>
+            </div>
+            <div class="cert-badge-mini">✓</div>
+          </div>
+
+        </div>
+
+        <div class="cert-cta">
+          <p>Lihat seluruh pencapaian dan kompetensi yang telah diraih.</p>
+          <a href="#kontak" class="btn btn-outline">Minta Informasi →</a>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════ 07. KONTAK ═══════════════════ -->
+<section class="section contact" id="kontak">
+  <div class="container">
+
+    <div class="contact-wrapper">
+
+      <div class="contact-content reveal">
+        <p class="section-eyebrow">06 / HUBUNGI SAYA</p>
+        <h2>Mari mulai sebuah <span class="text-gradient">percakapan</span></h2>
+        <p>
+          Terbuka untuk kesempatan kerja, kolaborasi, maupun diskusi 
+          seputar pengembangan teknologi. Saya senang bertemu dengan 
+          orang-orang yang memiliki semangat untuk berkembang.
+        </p>
+
+        <div class="contact-links">
+
+          <a href="mailto:emailkamu@example.com" class="contact-link">
+            <div class="contact-link-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div class="contact-link-text">
+              <small>Email</small>
+              <strong>muhammadbabunw.com</strong>
+            </div>
+            <span class="contact-link-arrow">↗</span>
+          </a>
+
+          
+
+          <a href="https://github.com/" target="_blank" rel="noopener" class="contact-link">
+            <div class="contact-link-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+            </div>
+            <div class="contact-link-text">
+              <small>GitHub</small>
+              <strong>https://github.com/Wsptn</strong>
+            </div>
+            <span class="contact-link-arrow">↗</span>
+          </a>
+
+          <a href="https://wa.me/62" target="_blank" rel="noopener" class="contact-link">
+            <div class="contact-link-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </div>
+            <div class="contact-link-text">
+              <small>WhatsApp</small>
+              <strong>+62 82132742993</strong>
+            </div>
+            <span class="contact-link-arrow">↗</span>
+          </a>
+
+        </div>
+      </div>
+
+      <div class="contact-visual reveal">
+        <div class="contact-img-wrap">
+          <img
+            src="assets/images/septian.JPG"
+            onerror="this.src='https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=600&h=700&fit=crop&q=80'"
+            alt="Ruang kerja profesional"
+          >
+          <div class="contact-img-card">
+            <div class="contact-card-avatar">BW</div>
+            <div>
+              <strong>Muhammad Babun Waseptian</strong>
+              <small>Junior Software Developer</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <a href="#beranda" class="logo">
+          <span class="logo-mark">S</span>
+          <span class="logo-text">Septian<span class="logo-dot">.</span></span>
+        </a>
+        <p>Dirancang dengan tujuan, dibangun dengan proses.</p>
+        <small>© <span id="year"></span> Muhammad Babun Waseptian</small>
+      </div>
+    </div>
+  </footer>
+</section>
+
+</main>
+
+<!-- BACK TO TOP -->
+<button class="back-top" id="backTop" aria-label="Kembali ke atas">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 15l-6-6-6 6"/></svg>
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
